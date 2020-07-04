@@ -133,6 +133,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./assets/happiness.png":
+/*!******************************!*\
+  !*** ./assets/happiness.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1adbe6e3c24ea9ac8c4f49955c73f6c1.png\");\n\n//# sourceURL=webpack:///./assets/happiness.png?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -141,7 +153,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Post__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Post */ \"./Post.js\");\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module '.assets/happiness.png'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/styles.css */ \"./styles/styles.css\");\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst post = new _Post__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('Webpack Post Title', !(function webpackMissingModule() { var e = new Error(\"Cannot find module '.assets/happiness.png'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));\r\n\r\nconsole.log('Post to string: ', post.toString());\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Post__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Post */ \"./Post.js\");\n/* harmony import */ var _assets_happiness_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/happiness.png */ \"./assets/happiness.png\");\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/styles.css */ \"./styles/styles.css\");\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst post = new _Post__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('Webpack Post Title', _assets_happiness_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\n\r\nconsole.log('Post to string: ', post.toString());\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
