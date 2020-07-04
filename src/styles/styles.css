@@ -7,3 +7,11 @@
 h1 {
     text-align: center;
 }
+
+.happiness {
+    background-image: url('../assets/happiness.png');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
