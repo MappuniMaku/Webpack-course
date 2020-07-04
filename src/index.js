@@ -1,4 +1,4 @@
-import Post from './Post';
+import Post from '@models/Post';
 import Happiness from './assets/happiness.png';
 import './styles/styles.css';
 
