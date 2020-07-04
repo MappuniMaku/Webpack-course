@@ -13,7 +13,6 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            title: 'Webpack course',
             template: './src/index.html',
         }),
     ],
