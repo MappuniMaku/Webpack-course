@@ -5,4 +5,4 @@ import './styles/styles.css';
 
 const post = new Post('Webpack Post Title', Happiness);
 
-$('pre').html(post.toString());
+$('pre').addClass('code').html(post.toString());
